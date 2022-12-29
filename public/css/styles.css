@@ -1,0 +1,324 @@
+.content-auto {
+    content-visibility: auto;
+    }
+    .large{
+        font-size: 200px;;
+    }
+
+    input{
+        font-family: 'Inter';
+    }
+
+    .container{
+        overflow: hidden;
+    }
+
+    #header .menu-navigation a,
+    #header .menu-navigation a.active{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: #656464;
+    }
+
+    #header .menu-navigation a.active {
+        font-weight: 600;
+        color: #2B2B39;
+    }
+
+    #header .menu-action .search-box{
+        border-bottom: 1px solid #E5E5E5;
+        padding: 18px 0;
+        width: 105px;
+    }
+
+    #header .menu-action .search-box input{
+        font-size: 12px;
+        padding: 0;
+    }
+
+    /* @layer components{
+        .btn-blue{
+            @apply bg-[217BF4] border-2 rounded-xl text-white leading-[14px] font-normal px-[44px] py-[18px];
+        }
+    } */
+
+    #header .container{
+        padding: 0 20px;
+    }
+
+    span{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        /* identical to box height, or 100% */
+        text-align: center;
+        color: #217BF4;
+    }
+
+    p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+
+
+        color: #8C8C8C;
+    }
+
+    .box-title{
+        max-width: 515px;
+    }
+
+    .box-title h1,
+    .box-title h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 66px;
+        color: #0A093D;
+    }
+
+    .box-title h2{
+        font-size: 36px;
+        font-weight: 600px;
+        line-height: 48px;
+
+    }
+
+    .btn-blue,
+    .btn-blue-outline,
+    .btn-blue-light{
+        border-radius: 14px;
+        background-color: #217BF4;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFF;
+        padding: 18px 44px;
+    }
+
+    .btn-blue-outline{
+        border: 1px solid #217BF4;
+        background-color: transparent;
+        color: #217BF4;
+    }
+
+    .btn-blue-light{
+        color: #217BF4;
+    }
+
+    section .container{
+        padding: 82px 20px;
+    }
+
+    #achievment{
+        margin-top: 21px;
+    }
+
+    #achievment .achievment-box{
+        width: 336px;
+        height: 340px;
+        background-color: #FFFF;
+        box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    }
+
+    .title-achievment{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        /* identical to box height, or 100% */
+
+
+        color: #0A093D;
+    }
+
+    .title-sec2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        /* identical to box height, or 112% */
+
+
+        color: #5D5B70;
+    }
+
+    #community h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        /* identical to box height, or 100% */
+
+        text-align: center;
+
+        color: #0A093D;
+    }
+
+    #community .community-feature .content{
+        width: 522px;
+        height: 182px;
+        left: 176px;
+        top: 262px;
+
+        background: #FFF;
+        box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+        border-radius: 14px;
+    }
+
+    #community h3{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 26px;
+        /* identical to box height, or 108% */
+
+
+        color: #2F2C4A;
+    }
+
+    #community p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        color: #656464;
+    }
+
+    #teams h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        /* identical to box height, or 100% */
+
+        text-align: center;
+
+        color: #0A093D;
+    }
+
+    #teams p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        color: #656464;
+    }
+
+    #teams .teams-active{
+        border-radius: 14px;
+        width: 474px;
+        height: 72px;
+        margin: 0 auto;
+        padding: 8px;
+    }
+
+    #teams .teams-active .content{
+        letter-spacing: 0.01em;
+        color: #2F2C4A;
+        opacity: 0.8;
+    }
+
+    .member-detail{
+        width: 270px;
+        height: 316px;
+        padding: 52px 30px;
+        background: #FFFF;
+        box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+        border-radius: 14px;
+        margin: 0 auto;
+    }
+
+
+    #apps .apps-desc{
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        color: #0A093D;
+        font-size: 36px;
+        font-weight: 600px;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .news-desc h3{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        color: #2F2C4A;
+        text-align: left;
+    }
+
+    .news-desc p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+        color: #656464;
+    }
+
+    #footer .link-detail,
+    #footer .footer-right h3{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        /* identical to box height, or 100% */
+
+
+        color: #FFFFFF;
+    }
+
+    #footer .link-detail li,
+    #footer .footer-right p,
+    #footer .footer-right .content{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 46px;
+        /* or 288% */
+
+        letter-spacing: 0.0125em;
+
+        color: #E7E7E7;
+    }
+
+    #footer .footer-right p{
+        line-height: 28px;
+    }
+
+    .btn-white{
+        background: #FFFFFF;
+        border-radius: 12px;
+        font-style: normal;
+        color: black;
+        padding: 16px 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+
+        text-align: center;
+    }
+
+    #footer .border-footer-right{
+        border: 1px solid rgba(255, 255, 255, 0.85);
+        border-radius: 12px;
+    }
+
+
+
